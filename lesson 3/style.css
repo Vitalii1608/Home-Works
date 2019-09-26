@@ -1,0 +1,59 @@
+.calendar{
+    background: url("autumn.jpg");
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center
+}
+.month{
+    
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(236, 129, 6);
+    text-align: center;   
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .day{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+  }
+  .number{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(1, 12, 10);
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+ }
+ .weekend{
+    font-weight: bold;
+    color: aqua;
+    font-size: 30px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+ }
+ .now{
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+ }
+ .other{
+    font-weight: bold;
+     color: rgba(0, 0, 0, 0.466);
+     font-size: 30px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+ }
