@@ -1,16 +1,18 @@
 .calendar{
     background: url("autumn.jpg");
-    height: 450px;
-    width: 500px;
+    width: 490px;
     margin: auto;
     padding: 20px;
     text-align: center
 }
 .month{
-    
+    width: 530px;
+    height: 50px;
+    margin:auto;
+    background: rgb(219, 120, 5);
     font-weight: bold;
     font-size: 40px;
-    color: rgb(236, 129, 6);
+    color: rgb(219, 231, 235);
     text-align: center;   
 }
 .clearfix:after {
@@ -21,39 +23,44 @@
   .day{
     font-weight: bold;
     font-size: 20px;
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .number{
     font-weight: bold;
     font-size: 30px;
     color: rgb(1, 12, 10);
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
  .weekend{
     font-weight: bold;
     color: aqua;
     font-size: 30px;
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
  .now{
     font-weight: bold;
     color: red;
     font-size: 30px;
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
  .other{
     font-weight: bold;
-     color: rgba(0, 0, 0, 0.466);
-     font-size: 30px;
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 30px;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
