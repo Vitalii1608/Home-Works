@@ -1,0 +1,136 @@
+.city{
+    width:1275px;
+    position:absolute;
+}
+
+.hulk{
+    width: 200px;
+    position:absolute;
+    bottom: 220px;
+    left: 300px;
+}
+
+.deadpool{
+    width: 120px;
+    position: absolute;
+    bottom: 250px;
+    right: 150px;
+}
+
+.iron-man{
+    width: 70px;
+    position:absolute;
+    right: 300px;
+    top: 20px;
+}
+
+.super-man{
+    width: 300px;
+    position:absolute;
+}
+
+.darth{
+    width: 150px;
+    position:absolute;
+    bottom:250px;
+    right:400px;
+    z-index: 2;
+}
+
+.stormtrooper{
+    width: 55px;
+    position:absolute;
+    bottom:300px;
+    right:370px;
+}
+
+.ufo{
+    width: 70px;
+    position:absolute;
+    top:10px;
+    right:520px;
+}
+
+.stone{
+    width: 120px;
+    position:absolute;
+    bottom:100px;
+    right:220px;
+    z-index: 2;
+}
+
+.boom{
+    width: 70px;
+    position:absolute;
+    bottom:220px;
+    left:599px;
+}
+
+.wanted{
+    width: 40px;
+    position:absolute;
+    bottom:315px;
+    right:110px;  
+}
+
+.leopold{
+    width: 30px;
+    position:absolute;
+    bottom:330px;
+    right:115px;  
+}
+
+.ghost{
+    width: 55px;
+    position:absolute;
+    top:240px;
+    left:220px; 
+}
+.portal{
+    width: 80px;
+    position:absolute;
+    bottom:300px;
+    left:220px; 
+}
+.terminator{
+    width: 50px;
+    position:absolute;
+    bottom:300px;
+    left:240px; 
+}
+.lavka{
+    width: 110px;
+    position:absolute;
+    bottom:250px;
+    left:470px;   
+}
+.gazeta{
+    width: 60px;
+    position:absolute;
+    bottom:50px;
+    left:370px;   
+}
+.vis{
+    width: 60px;
+    position:absolute;
+    bottom:420px;
+    left:80px;  
+}
+.mashina{
+    width: 120px;
+    position:absolute;
+    bottom:300px;
+    right:250px;   
+}
+.pokemon{
+    width: 40px;
+    position:absolute;
+    bottom:120px;
+    right:210px;   
+}
+.cat{
+    width: 100px;
+    position:absolute;
+    bottom:120px;
+    right:410px;   
+}
