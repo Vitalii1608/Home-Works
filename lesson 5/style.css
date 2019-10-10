@@ -1,38 +1,35 @@
-.city{
-    width:1275px;
-    position:absolute;
+.picture{
+    background-image: url(city.jpg);
+    width:1250px;
+    height: 781px;
+    position:relative;
 }
 
 .hulk{
-    width: 200px;
+    width: 210px;
     position:absolute;
-    bottom: 220px;
+    bottom: 200px;
     left: 300px;
 }
 
 .deadpool{
-    width: 120px;
+    width: 110px;
     position: absolute;
-    bottom: 250px;
+    bottom: 230px;
     right: 150px;
 }
 
 .iron-man{
-    width: 70px;
+    width: 50px;
     position:absolute;
     right: 300px;
     top: 20px;
 }
 
-.super-man{
-    width: 300px;
-    position:absolute;
-}
-
 .darth{
-    width: 150px;
+    width: 140px;
     position:absolute;
-    bottom:250px;
+    bottom:220px;
     right:400px;
     z-index: 2;
 }
@@ -40,7 +37,7 @@
 .stormtrooper{
     width: 55px;
     position:absolute;
-    bottom:300px;
+    bottom:270px;
     right:370px;
 }
 
@@ -52,9 +49,9 @@
 }
 
 .stone{
-    width: 120px;
+    width: 110px;
     position:absolute;
-    bottom:100px;
+    bottom:80px;
     right:220px;
     z-index: 2;
 }
@@ -62,50 +59,50 @@
 .boom{
     width: 70px;
     position:absolute;
-    bottom:220px;
-    left:599px;
+    bottom:210px;
+    left:580px;
 }
 
 .wanted{
     width: 40px;
     position:absolute;
-    bottom:315px;
+    bottom:300px;
     right:110px;  
 }
 
 .leopold{
     width: 30px;
     position:absolute;
-    bottom:330px;
+    bottom:315px;
     right:115px;  
 }
 
 .ghost{
-    width: 55px;
+    width: 50px;
     position:absolute;
     top:240px;
-    left:220px; 
+    left:210px; 
 }
 .portal{
-    width: 80px;
+    width: 70px;
     position:absolute;
-    bottom:300px;
+    bottom:280px;
     left:220px; 
 }
 .terminator{
-    width: 50px;
+    width: 40px;
     position:absolute;
-    bottom:300px;
+    bottom:280px;
     left:240px; 
 }
 .lavka{
-    width: 110px;
+    width: 100px;
     position:absolute;
-    bottom:250px;
-    left:470px;   
+    bottom:220px;
+    left:450px;   
 }
 .gazeta{
-    width: 60px;
+    width: 50px;
     position:absolute;
     bottom:50px;
     left:370px;   
@@ -123,14 +120,20 @@
     right:250px;   
 }
 .pokemon{
-    width: 40px;
+    width: 30px;
     position:absolute;
-    bottom:120px;
+    bottom:100px;
     right:210px;   
 }
 .cat{
-    width: 100px;
+    width: 80px;
     position:absolute;
     bottom:120px;
     right:410px;   
+}
+.fire{
+    width: 150px;
+    position:absolute;
+    bottom:120px;
+    right:410px
 }
