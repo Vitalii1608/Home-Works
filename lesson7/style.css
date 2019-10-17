@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap&subset=cyrillic');
-
-
 
 @font-face {
     font-family: 'bad_scriptregular';
     src: url('fonts/badscript-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+.wrapper{
+    width: 1024PX;
+    margin: 0 auto;
 }
 
 .header, .main, .footer, .menu{
@@ -18,13 +19,12 @@
 
 .teslaImage{
     width: 300px;
-    float:center;
 }
 
 .menu  li{
     background: rgb(187, 230, 181);
     float: left;
-    padding: 10px 81px;
+    padding: 10px 58px;
     list-style: none;
     position: relative;
     border-top: 2px solid ;
@@ -44,11 +44,11 @@
 .listAside{
     background:rgb(187, 230, 181);
     float: left;
+    width: 120px;
     padding: 20px 20px;
     list-style: none;
     border: 2px solid;
     text-align: left;
-    height: auto;
     line-height:40px;
     
 }
@@ -91,7 +91,9 @@
     float: left;
 }
 
-.main{
-    width: 1024px;
-    margin: 0 auto;
+.mainContent{
+    background: rgb(220, 247, 221);
+    float: left;
+    width: calc(100% - 210px);
+    padding: 0 20px;
 }
