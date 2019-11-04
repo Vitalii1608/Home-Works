@@ -1,0 +1,304 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic');
+
+
+bodY{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.box{
+    max-width: 1260px;
+    background: #3e3b4a;
+}
+
+.header{  
+    height: 204px;
+}
+
+.wrapper{
+    display: flex;  
+    max-width: 1024px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+
+.menu-link{
+    background: url(img/menu.png)no-repeat left center;
+    display: flex;  
+    padding-left:30px;
+    height: 20px;
+    color: #76737f;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top:90px;
+    line-height: normal;
+    
+
+}
+
+.DMT{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 44px;
+}
+
+.Design-Meets-Tech{
+    color: #76737f;
+    font-size: 10px;
+    letter-spacing:1.5px;
+}
+
+
+.header-logo{
+    margin-top: 68px;
+}
+
+.search{
+    background: url(img/search.png) no-repeat right center;
+    display: flex; 
+    padding-right:36px;
+    margin-top: 95px;
+    color: #76737f;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    height: 20px;
+    line-height: normal;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    background: url(img/Buster_Bulb.jpg) no-repeat;
+    padding: 40px 0 40px 42px;
+    height: 512px;
+    flex-basis: 100%;
+    
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    height: 44px;
+    width: 128px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding:0 15px; 
+    border:4px solid #ffe18e;
+    margin-top: auto;
+   
+
+
+ }
+
+.text-top{
+    font-size:16px;
+    color: #ffc7b0;
+}
+
+.Buster-Bulb{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 58px;
+    margin: 0;
+}
+
+
+.Buster-Bulb-text{
+    color: #fff;
+    padding-top: 27px;
+    font-size: 30px;
+    margin: 0;
+    
+    
+}
+
+.button-Read-more{
+    background: #ffe18e;
+    text-decoration: none;
+    color:#0c0c0c;
+    padding:8px 0;
+    margin:0 auto;
+    font-size: 18px;
+    height: 44px;
+    width: 128px;
+    text-align: center;
+
+}
+.color{
+    background: #ffe18e;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 20px 0;
+    background: url(img/peak.jpg) no-repeat;
+    padding: 40px 0 40px 42px;
+    flex-basis: 624px;
+    height: 486px;
+}
+
+.Peak{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    padding:22px 0 25px 0;
+}
+
+.Peak-text{
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.section-3{
+    display: flex;
+    background:#eb7b61;
+    flex-direction: column;
+    margin: 20px 0;
+    text-align: center;
+    flex-basis: 380px;
+    height: 486px;
+    padding:75px 45px;
+}
+
+.Good-Things{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:normal;
+    color: #fff;
+    font-size: 48px;
+    padding-bottom:10px;
+    margin:0;
+}
+
+.Good-Things-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:normal;
+    font-size: 24px;
+    color: #fff;
+    margin:0;
+}
+
+.Subscribe-buttom-input{
+    background: #eb7b61;
+    border:4px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    width: 286px;
+    height: 42px;
+    text-align: center;
+    margin:40px 0 20px;
+}
+
+.Subscribe-buttom{
+    background: #66689c;
+    color: #fff;
+    border:2px solid #66689c;
+    font-size: 20px;
+    width: 286px;
+    height: 42px;
+    margin-bottom: 32px;
+
+}
+
+.Good-Things-text-bottom{
+    color: #fff;
+    font-size: 14px; 
+    margin: 0;
+   
+    
+}
+
+.section-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    background: url(img/Leica_M.jpg) no-repeat;
+    margin-right: 20px;
+    text-align: center;
+    flex-basis: 262px;
+    height: 421px;
+    padding:40px 0 40px;
+}
+
+.Leica-M-Title{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+.section-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    background: url(img/Trobla.jpg) no-repeat;
+    margin-right: 20px;
+    text-align: center;
+    flex-basis: 262px;
+    height: 421px;
+    padding:40px 0 40px;
+}
+
+.Trobla-Amplifier{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    background: url(img/Leica_D-Lux.jpg) no-repeat;
+    padding: 40px 0 40px 42px;
+    flex-basis: 460px;
+    height: 421px;
+}
+.Leica-D-Lux{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    margin:18px 0 24px 0;
+}
+
+.D-Lux-text{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.footer{
+
+    height: 140px;
+
+}
+.facebook, .twitter{
+    margin-top: 65px;
+}
+.facebook{
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.copiright-DMT{
+    margin-top: 65px; 
+    color: #76737f;
+}
+

@@ -12,31 +12,38 @@
     <form method="post" action="http://nickblack.pro/send.php" autocomplete="on">
 
         <div>
-            <input type="text" name = "fname" required  placeholder="имя">
+            <label for="fname">имя*</label>
+            <input type="text" name = "fname" required>
         </div>
 
         <div>
-            <input type="text"  name = "sname" placeholder="Фамилия">
+            <label for="sname">фамилия*</label>
+            <input type="text"  name = "sname">
         </div>
 
         <div> 
-            <input type="text" min="1" max="100"  name = "age" placeholder="возраст">
+            <label for="age">возраст*</label>
+            <input type="number" min="1" max="100"  name = "age">
         </div>
 
         <div>
-            <input type="text" name = "mail"  placeholder="почта">
+            <label for="mail">почта*</label>
+            <input type="email" name = "mail" >
         </div> 
 
         <div>
-            <input type="text" name = "bday"  placeholder="Дата рождения">
+            <label for="bday">дата рождения*</label>
+            <input type="date" name = "bday" >
         </div>
 
         <div>
-            <input type="number"  name = "phone" placeholder="Телефон" required value="+380">
+            <label for="phone">телефон*</label>
+            <input type="tel"  name = "phone" required value="+380">
         </div>
 
         <div>
-            <input type="email" name = "mymail" placeholder="Email получателя" disabled required value="vitaliilazor@gmail.com">
+            <label for="mymail">email получателя*</label>
+            <input type="email" name = "mymail" disabled required value="vitaliilazor@gmail.com">
         </div>
 
         <div>
