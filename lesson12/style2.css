@@ -1,0 +1,278 @@
+
+@media only screen and (max-width:768px){
+
+    .wrapper{
+        flex-basis:720px;
+    }
+    .header{
+        flex-basis:720px;
+    }
+
+    .main{
+        
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .menu-link, .search{
+        
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .DMT{
+        font-size: 56px;
+    }
+
+    .Design-Meets-Tech{
+        font-size: 16px;
+    }
+  
+    .section1{
+        flex-basis:100%;
+        
+    }
+    
+    
+    .section-2{
+       flex-basis: 47%;
+       margin: 10px 0;
+    }
+    
+    .section-3{
+        flex-basis: 47%;
+        margin: 10px 0;
+    }
+
+    .section-4{
+        flex-basis: 33%;
+        margin-bottom:20px;
+        align-items: center;
+      
+    }
+
+    .search{
+
+        margin-right:20px;
+    }
+
+    .menu-link{
+
+        margin-left:20px;
+    }
+
+    .section-5{
+        flex-basis: 33%;
+        margin-bottom:20px; 
+        align-items: center;
+       
+      
+    }
+
+    .section-6{
+        
+        flex-basis:33%;
+        padding: 40px 0 40px 42px;
+    }
+
+    .Copyright{
+
+        font-size: 20px;
+        margin-left:20px;
+    }
+
+    .facebook, .twitter{
+
+        margin-right:20px;
+    
+    }
+        
+
+}
+
+
+
+
+
+@media only screen and (max-width: 320px){
+
+
+    .box{
+        
+        display: flex;  
+        flex-wrap: wrap;
+        text-align: center;
+        overflow:hidden;
+     
+    }
+
+    .header .wrapper{
+
+        max-width:320px;
+        padding: 30px 0;
+        
+    }
+    .header-logo{
+        width:100%
+    }
+
+  
+
+    .DMT{
+
+        
+        order: 0; 
+        
+        
+    }
+
+    .search{
+       
+        height: 22px;
+        line-height:22px;
+        letter-spacing:normal;
+        order: 1;
+
+
+    }
+    
+   .menu-link{
+        
+    
+        height: 22px;
+        line-height:22px;
+        letter-spacing:normal;
+        order: 1;
+
+   }
+
+   .Design-Meets-Tech{
+        font-size: 0
+    }
+
+
+    .section-1{
+        flex-basis:100%;
+        padding:40px 0;
+    }
+
+ 
+
+    .Buster-Bulb-text{
+
+        font-size: 0;
+    }
+
+    .button{
+        margin:0 auto;
+        margin-top:auto;
+    }
+    
+    .section-2{
+        flex-basis:100%;
+        padding:40px 0;
+    }
+
+    .Peak{
+
+        margin-top: auto;
+    }
+
+    .Peak-text{
+
+        font-size: 0;
+    }
+    
+    .section-3{
+        background-size:cover;
+        flex-basis:100%;
+        padding-top:30px;
+      
+    }
+
+    .Good-Things{
+        width:220px;
+
+    }
+
+    .Good-Things-text{
+
+        font-size: 0;
+    }
+
+    .Subscribe-buttom-input{
+        width:220px;
+    }
+
+    .Subscribe-buttom{
+        width:220px;
+    }
+
+    .Good-Things-text-bottom{
+
+        width:220px;
+
+    }
+
+    .section-4{
+        flex-basis:100%;
+        background-size:cover;
+        margin: 0;
+    }
+
+    .Leica-M-Title{
+
+        font-size: 40px;
+    }
+
+    .section-5{
+        flex-basis:100%;
+        background-size:cover;
+        margin: 0;
+    }
+
+    .section-6{
+        flex-basis:100%;
+        margin-bottom:-50px;
+        padding:40px 0;
+    }
+
+    .D-Lux-text{
+
+        font-size: 0;
+    }
+
+    .Leica-D-Lux{
+
+        margin-top: auto;
+    }
+
+    .footer{
+
+        flex-basis:320px;
+        display: flex;  
+        align-items: center;
+    }
+
+    .Copyright{
+
+        font-size: 0;
+        
+    }
+
+    .facebook{
+        margin-left: auto; 
+    }
+
+    .twitter{
+
+        margin-right: auto;
+       
+    }
+
+}
+background-size:cover;
+
+lern js.com
+
+background-size:contein;
