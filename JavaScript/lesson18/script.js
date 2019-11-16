@@ -34,7 +34,7 @@ if( item != true ){
 
 //краткая форма
 
-item = false != true  ? true : false;
+item = (item != true)  ? true : false;
 
 console.log( item );
 

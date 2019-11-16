@@ -156,11 +156,14 @@
         padding:40px 0;
     }
 
- 
+    .Buster-Bulb{
+
+        font-size:72px;
+    }
 
     .Buster-Bulb-text{
 
-        font-size: 0;
+        font-size: 24px;
     }
 
     .button{
@@ -180,7 +183,7 @@
 
     .Peak-text{
 
-        font-size: 0;
+        font-size: 24px;
     }
     
     .section-3{
@@ -197,7 +200,7 @@
 
     .Good-Things-text{
 
-        font-size: 0;
+        font-size: 24px;
     }
 
     .Subscribe-buttom-input{
@@ -239,7 +242,7 @@
 
     .D-Lux-text{
 
-        font-size: 0;
+        font-size: 24px;
     }
 
     .Leica-D-Lux{
