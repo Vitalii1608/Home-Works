@@ -1,0 +1,494 @@
+
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('fonts/ProximaNova-Semibold.eot');
+  src: url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova-Semibold.woff') format('woff'),
+  url('fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: 600;
+  }
+
+  @font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('fonts/ProximaNova-Regular.eot');
+    src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ProximaNova-Regular.woff') format('woff'),
+    url('fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: 500;
+    }
+
+    @font-face {
+      font-family: 'fonts/Proxima Nova Extra Bold';
+      src: url('fonts/ProximaNova-Extrabld.eot');
+      src: url('fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+      url('fonts/ProximaNova-Extrabld.woff') format('woff'),
+      url('fonts/ProximaNova-Extrabld.ttf') format('truetype');
+      font-weight: 800;
+      font-style: 800;
+      }
+
+      @font-face {
+        font-family: 'Proxima Nova Condensed Extra Bold';
+        src: url('fonts/ProximaNovaCond-Extrabld.eot');
+        src: url('fonts/ProximaNovaCond-Extrabld.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProximaNovaCond-Extrabld.woff') format('woff'),
+        url('fonts/ProximaNovaCond-Extrabld.ttf') format('truetype');
+        font-weight: 700;
+        font-style: 700;
+        }
+              
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: black;
+  height: 108px;
+  font-family: 'Proxima Nova Semibold';
+  font-weight: 600;
+
+
+}
+
+.wrapper {
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ flex-basis: 1226px;
+ height: 109px;
+ margin: 0 auto;
+}
+
+
+
+.burger{
+ display: none;
+
+}
+
+.header_logo {
+  display: flex;
+  height: 56px;
+  margin-top: 27px;
+  margin-left: -4px;
+}
+
+.nav {
+  display: flex;
+  font-size: 13px;
+  height: 109px;
+  line-height: 109px;
+  font-weight: 600;
+  padding-top: 2px;
+  padding-left: 38px;
+
+}
+
+.SHOP {
+  color: #fff;
+  margin-left: -513px;
+  margin-top: 3px;
+  margin-right: 27px;
+  text-decoration: none;
+}
+
+.TEAM {
+  color: #fff;
+  margin-right: 27px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.EVENTS {
+  color: #fff;
+  margin-right: 26px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.EXPERIENCE {
+  color: #fff;
+  margin-right: 27px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.COMPANY {
+  color: #fff;
+  margin-right: 34px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.CONTACT {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 3px;
+}
+
+.SEARCH{
+  margin-right: 27px;
+}
+
+.basket {
+  line-height: 109px;
+  margin-top: 3px;
+ 
+}
+
+.BASKET_ICON{
+  margin-right: 5px;
+}
+
+.BASKET_MONEY{
+  margin-right: 5px;
+}
+.main {
+  flex-wrap: wrap;
+}
+
+.section_1 {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 649px;
+  background: url(img/Camada_3.jpg) no-repeat center;
+  padding: 195px 0 0;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+}
+
+.section_1__wrapper{
+  flex-basis: 570px;
+  margin: 0 auto;
+}
+
+.section_1__text {
+  flex-basis: 520px;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 95px;
+  letter-spacing:0px;
+  font-weight: 800;
+  margin-left: -4px;
+}
+
+.section_1__botton {
+  display: block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background: black;
+  color: #fff;
+  text-align: center;
+  margin-top: 38px;
+  margin-left: 345px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.section_2 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 128px 0 210px 0;
+}
+
+.section_2__img {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 177px;
+  margin-bottom: 26px;
+}
+
+.section_2__text {
+  text-align: center;
+  flex-basis: 100%;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: black;
+  
+}
+
+.snowboards__text {
+  font-size: 48px;
+  line-height: 100px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  margin-left: -2px;
+}
+
+.snowboards__text_2{
+ letter-spacing: -0.13px;
+  font-size: 14px;
+  font-family: 'Proxima Nova Semibold';
+}
+
+.snowboards__text_3 {
+  margin-top: 23px;
+  font-size: 14px;
+  text-align: center;
+  font-size: 24px;
+  flex-basis: 100%;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Semibold';
+}
+.section_3 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 246px 0 0 218px;
+  background: url(img/bg_image.jpg) no-repeat center;
+  height: 955px;
+}
+
+
+
+.section_3__text {
+  max-width: 604px;
+  font-family: 'Proxima Nova Regular';
+}
+
+.section_3__text1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 60px;
+  line-height: 48px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+}
+
+.section_3__sup{
+  font-size: 38px;
+  margin-left: -8px;
+}
+
+.section_3__text2 {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 200%;
+}
+
+.section_4 {
+  padding: 113px 0 130px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+
+}
+
+.section_4__wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.section_4__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  font-size: 48px;
+  margin-bottom: 140px;
+  margin-left: -4px;
+ 
+}
+
+.section_4__box0 {
+  display: flex;
+  flex-basis: 960px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section_4__box_1__span,
+.section_4__box_2__span,
+.section_4__box_3__span,
+.section_4__box_4__span {
+  display: flex;
+  padding-top: 13px;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: 'Proxima Nova Semibold';
+ 
+}
+.section_4__box_1,
+.section_4__box_2,
+.section_4__box_3,
+.section_4__box_4 {
+  flex-basis: 220px;
+}
+
+
+
+.footer {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  height: 397px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: black;
+  padding: 58px 0 35px 0;
+}
+
+.footer__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 974px;
+  margin-left: 223px;
+}
+
+
+.footer__Products {
+  max-width: 95px;
+  margin: 0;
+}
+
+.footer__Products__list {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+.footer__Products__list a,
+.footer__About__list a,
+.footer__Customer_Support__list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Proxima Nova Regular';
+  padding: 0;
+  line-height: 227%;
+}
+
+.footer__Products__text {
+  font-size: 17px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  color: #fff;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.footer__About {
+  color: #fff;
+  max-width: 176px;
+  margin: 0 76px 0 150px;
+}
+
+.footer__About__list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__About__text {
+  font-size: 17px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+.footer__Customer_Support {
+  color: #fff;
+  max-width: 182px;
+  margin-right: 89px;
+}
+
+.footer__Customer_Support__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__Customer_Support__text {
+  font-size: 17px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  margin-bottom: 18px;
+}
+
+.footer__Newsletter {
+  max-width: 210px;
+  margin-top: 15px;
+}
+
+.footer__Newsletter__text {
+  color: #fff;
+  max-width: 200px;
+  font-size: 17px;
+  font-family: 'fonts/Proxima Nova Extra Bold';
+  letter-spacing: 1px;
+}
+
+.footer__input {
+  display: block;
+  position: relative;
+}
+
+.footer__input__Newsletter {
+  display: flex;
+  width: 220px;
+  height: 42px;
+  position: absolute;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.footer__input__Newsletter__go {
+  display: block;
+  width: 60px;
+  height: 42px;
+  position: absolute;
+  background: #c7c7c7;
+  right: -10px;
+  margin-top: 20px;
+  font-family: 'Proxima Nova Condensed Extra Bold';
+  font-size: 16px;
+}
+
+.socsety {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 220px;
+  margin-top: 125px;
+  margin-left: 10px;
+}
+
+.twitter,
+.pinterest {
+  margin: 0 30px;
+}
+
+.footer__copiright {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Proxima Nova Semibold';
+  margin-top: 10px;
+}
+
+.footer__Change_Region {
+  color: #fff;
+  margin-left: auto;
+  font-size: 14px;
+  font-family: 'Proxima Nova Semibold';
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+.footer__Change_Region span{
+  margin-left: 7px;
+}
