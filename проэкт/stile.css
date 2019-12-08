@@ -47,11 +47,13 @@
 *::after {
   box-sizing: border-box;
 }
+body{
+  margin: 0;
+}
 
 .header {
   display: flex;
   flex-wrap: nowrap;
-  max-width: 1400px;
   margin: 0 auto;
   background: black;
   height: 108px;
@@ -139,6 +141,7 @@
 
 .SEARCH{
   margin-right: 27px;
+  text-decoration: none;
 }
 
 .basket {
@@ -149,10 +152,12 @@
 
 .BASKET_ICON{
   margin-right: 5px;
+  text-decoration: none;
 }
 
 .BASKET_MONEY{
   margin-right: 5px;
+  text-decoration: none;
 }
 .main {
   flex-wrap: wrap;
@@ -164,7 +169,7 @@
   margin: 0 auto;
   height: 649px;
   background: url(img/Camada_3.jpg) no-repeat center;
-  padding: 195px 0 0;
+  align-items: center;
   font-family: 'fonts/Proxima Nova Extra Bold';
 }
 
@@ -248,9 +253,11 @@
   font-family: 'Proxima Nova Semibold';
 }
 .section_3 {
+  display: flex;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 246px 0 0 218px;
+  align-items: center;
+  padding-left: 218px;
   background: url(img/bg_image.jpg) no-repeat center;
   height: 955px;
 }
@@ -340,7 +347,6 @@
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-  height: 397px;
   max-width: 1400px;
   margin: 0 auto;
   background: black;
@@ -457,6 +463,7 @@
   margin-top: 20px;
   font-family: 'Proxima Nova Condensed Extra Bold';
   font-size: 16px;
+  border: none;
 }
 
 .socsety {
